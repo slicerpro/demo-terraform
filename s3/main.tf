@@ -2,7 +2,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "2022-saa"
+    organization = "demo-terraform-2022saa"
     
     workspaces {
       name = "demo-terraform"
