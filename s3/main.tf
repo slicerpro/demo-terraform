@@ -1,6 +1,6 @@
 #setup terraform cloud and workspace
 terraform {
-  backend = "remote" {
+  backend "remote" {
     hostname = "app.terraform.io"
     organization = "2022-saa"
     
