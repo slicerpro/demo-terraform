@@ -19,10 +19,10 @@ terraform {
     }
   }
   
-  required_version = "1.1.3"
+  required_version = ">= 1.1.3"
 }
 
 #setup AWS provider
-provider "aws"{
+provider "aws" {
   provider = var.aws_region
 }
